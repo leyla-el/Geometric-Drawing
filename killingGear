@@ -2,22 +2,15 @@ from turtle import *
 
 tom = Turtle()
 tom.shape('turtle')
-#tom.goto(-350,0)
-tom.speed(10)
+tom.speed(0)
 tom.color('aqua')
 
 def sample():
-	for mi in range (1):
-		tom.circle(450,50)
-		tom.lt(15)
-		tom.circle(350,-70)
-		#tom.lt(360.0/30)
-		#tom.lt(90)
-		#tom.fd(40)
-		#tom.hideturtle()
-		tom.goto(0,0)
+	tom.circle(450,50)
+	tom.lt(12)
+	tom.circle(350,-70)
+	tom.goto(0,0)
 
-for i in range (10):
+for i in range (13):
     sample()
     tom.lt(360.0/10)
-#tom.goto(0,0)
