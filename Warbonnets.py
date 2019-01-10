@@ -10,3 +10,5 @@ for mi in range (20):
     tom.lt(10)
     tom.circle(350,-70)
     tom.lt(360.0/20)
+
+ tom.hideturtle()
