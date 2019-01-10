@@ -3,7 +3,8 @@ from turtle import *
 tom = Turtle()
 tom.shape('turtle')
 tom.speed(0)
-tom.color('aqua')
+tom.width(2)
+tom.color('#53aa58')
 
 def sample():
 	tom.circle(450,50)
@@ -14,3 +15,5 @@ def sample():
 for i in range (13):
     sample()
     tom.lt(360.0/10)
+
+tom.hideturtle()
