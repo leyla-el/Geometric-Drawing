@@ -1,8 +1,9 @@
 from turtle import *
 tom = Turtle()
 tom.shape('turtle')
-tom.speed(100)
-tom.color('gold')
+tom.speed(0)
+tom.color('#88af23')
+
 
 def sample():
     side = 200
@@ -27,3 +28,5 @@ tom.rt(90)
 tom.fd(200)
 tom.lt(90)
 tom.circle(200)
+
+tom.hideturtle()
