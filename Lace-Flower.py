@@ -2,7 +2,7 @@ from turtle import *
 tom = Turtle()
 tom.shape('turtle')
 tom.setheading(180)
-tom.color('olive')
+tom.color('#db7884')
 tom.speed(0)
 tom.width(0.2)
 
