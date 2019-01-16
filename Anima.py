@@ -1,10 +1,10 @@
 from turtle insert *
-from turtle import *
 tom = Turtle()
+sc = Screen()
 tom.shape('turtle')
 tom.speed(0)
 tom.color('#f47a42')
-tom.tracer(1000)
+sc.tracer(1000)
 
 def flower():
 	w=1.2
@@ -24,7 +24,7 @@ def flower():
 
 for c in range(10):
 	tom.color('#f47a42')
-	tom.tracer(1000)
+	#tom.tracer(1000)
 	for rad in range (10):
 		for count in range (5):
 			flower()
@@ -44,3 +44,6 @@ for c in range(10):
 		tom.pd()
 		tom.lt(360.0/10)
 	tom.update()
+        
+tom.hideturtle()
+
